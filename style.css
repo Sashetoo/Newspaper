@@ -1,0 +1,83 @@
+body {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styles for the main */
+.main {
+    background-color: #fdd875;
+    padding: 80px 0;
+}
+
+.title-wrapper {
+    background-color: white;
+    padding: 25px 0;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 1px RGB(0 0 0/12%), 0px 4px 4px RGB(0 0 0/6%), 1px 4px 6px RGB(0 0 0/16%);
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.news {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.news-list {
+    display: flex;
+    justify-content: space-between;
+}
+.news-item {
+    width: 330px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    border: 1px solid gray;
+}
+.news-item:hover {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.news-img {
+    width: 100%;
+    height: 240px;
+}
+.news-text-wrap {
+    margin-top: 30px;
+    color: black;
+}
+.news-text {
+    padding-top: 15px;
+}
