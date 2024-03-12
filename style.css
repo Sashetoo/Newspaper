@@ -127,4 +127,15 @@ a {
 }
 .footer {
     background-color: rgb(180, 237, 100);
+    text-align: center;
 }
+.footer-logo {
+    color: rgb(128, 0, 0);
+}
+.footer-link:hover {
+    color: darkblue;
+}
+.footer-link:focus {
+    color: darkblue;
+}
+
