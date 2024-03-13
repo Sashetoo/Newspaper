@@ -58,6 +58,7 @@ a {
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+
 .header-item:hover {
     background-color: white;
 }
@@ -65,6 +66,7 @@ a {
 .header-item:focus {
     background-color: white;
 }
+
 /* Styles for the main */
 .main {
     background-color: #fdd875;
@@ -95,12 +97,14 @@ a {
 }
 
 .news-list {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
+    row-gap: 15px;
 }
 
 .news-item {
-    width: 330px;
+    width: 300px;
     background-color: white;
     border-radius: 8px;
     padding: 30px;
@@ -125,17 +129,115 @@ a {
 .news-text {
     padding-top: 15px;
 }
+
 .footer {
-    background-color: rgb(180, 237, 100);
-    text-align: center;
+    background-color: #aa43a2;
 }
+
 .footer-logo {
     color: rgb(128, 0, 0);
 }
+
 .footer-link:hover {
     color: darkblue;
 }
+
 .footer-link:focus {
     color: darkblue;
 }
+
+/* Styles for the first page */
+.cat-container {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+}
+.cat-text {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.cat-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cat-img {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+/* styles for the second page */
+.dog-container {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+}
+.dog-text {
+    margin-top: 30px;
+}
+.dog-img {
+    justify-content: center;
+    display: flex;
+    margin: 25px auto;
+}
+/* styles for the third page */
+.study-container {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+}
+.study-text {
+    margin-top: 30px;
+}
+.study-img {
+    justify-content: center;
+    display: flex;
+    margin: 25px auto;
+    width: 800px;
+}
+.study-list {
+    list-style: square;
+    margin-left: 20px;
+}
+.study-item {
+    margin-top: 10px;
+}
+/* styles for the contacts */
+.contacts-container {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+}
+.contacts-text {
+    margin: 20px 0;
+}
+.contacts-img {
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.contacts-link {
+    color: #aa43a2;
+}
+.contacts-link:hover {
+    font-weight: 600;
+}
+
 
