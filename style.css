@@ -133,14 +133,17 @@ a {
 .footer {
     background-color: #aa43a2;
 }
+.footer-wrapper {
+    display: flex;
+}
 
 .footer-logo {
     color: rgb(128, 0, 0);
+    padding-right: 50px;
 }
 .footer-link:hover {
     color: darkblue;
 }
-
 .footer-link:focus {
     color: darkblue;
 }
