@@ -138,7 +138,9 @@ a {
 }
 
 .footer-logo {
-    color: rgb(128, 0, 0);
+    color: #fec830;
+    font-size: 30px;
+    font-weight: 700;
     padding-right: 50px;
 }
 .footer-link:hover {
@@ -146,6 +148,10 @@ a {
 }
 .footer-link:focus {
     color: darkblue;
+}
+.footer-link {
+    font-size: 20px;
+    color: #fff;
 }
 
 /* Styles for the first page */
