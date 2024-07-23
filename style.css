@@ -136,19 +136,21 @@ a {
 .footer-wrapper {
     display: flex;
 }
-
 .footer-logo {
     color: #fec830;
     font-size: 30px;
     font-weight: 700;
-    padding-right: 50px;
+    padding-right: 850px;
 }
+
 .footer-link:hover {
     color: darkblue;
 }
+
 .footer-link:focus {
     color: darkblue;
 }
+
 .footer-link {
     font-size: 20px;
     color: #fff;
@@ -164,14 +166,17 @@ a {
     padding: 30px;
     font-size: 20px;
 }
+
 .cat-text {
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
 .cat-title {
     text-align: center;
     margin-bottom: 30px;
 }
+
 .cat-img {
     width: 600px;
     height: 100%;
@@ -179,6 +184,7 @@ a {
     justify-content: center;
     margin: auto;
 }
+
 /* styles for the second page */
 .dog-container {
     background-color: rgb(247, 247, 247);
@@ -189,14 +195,17 @@ a {
     padding: 30px;
     font-size: 20px;
 }
+
 .dog-text {
     margin-top: 30px;
 }
+
 .dog-img {
     justify-content: center;
     display: flex;
     margin: 25px auto;
 }
+
 /* styles for the third page */
 .study-container {
     background-color: rgb(247, 247, 247);
@@ -207,22 +216,27 @@ a {
     padding: 30px;
     font-size: 20px;
 }
+
 .study-text {
     margin-top: 30px;
 }
+
 .study-img {
     justify-content: center;
     display: flex;
     margin: 25px auto;
     width: 800px;
 }
+
 .study-list {
     list-style: square;
     margin-left: 20px;
 }
+
 .study-item {
     margin-top: 10px;
 }
+
 /* styles for the contacts */
 .contacts-container {
     background-color: rgb(247, 247, 247);
@@ -233,19 +247,21 @@ a {
     padding: 30px;
     font-size: 20px;
 }
+
 .contacts-text {
     margin: 20px 0;
 }
+
 .contacts-img {
     border: 1px solid gray;
     border-radius: 20px;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+
 .contacts-link {
     color: #aa43a2;
 }
+
 .contacts-link:hover {
     font-weight: 600;
 }
-
-
