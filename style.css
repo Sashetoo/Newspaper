@@ -130,30 +130,40 @@ a {
     padding-top: 15px;
 }
 
-.footer {
-    background-color: #aa43a2;
-}
-.footer-wrapper {
+.footer-info {
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+.footer-item {
+    margin-right: 10px;
+    white-space: nowrap;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-item:hover {
+    color: darkblue;
+}
+
+.footer-item:focus {
+    color: darkblue;
+}
+
+
 .footer-logo {
+    margin-right: 10px;
+    white-space: nowrap;
     color: #fec830;
     font-size: 30px;
     font-weight: 700;
-    padding-right: 850px;
+    padding-right: 350px;
 }
 
-.footer-link:hover {
-    color: darkblue;
-}
 
-.footer-link:focus {
-    color: darkblue;
-}
-
-.footer-link {
-    font-size: 20px;
-    color: #fff;
+.footer {
+    background-color: #aa43a2;
 }
 
 /* Styles for the first page */
