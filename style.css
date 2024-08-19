@@ -164,6 +164,8 @@ a {
 
 .footer {
     background-color: #aa43a2;
+    text-align: center; /* Centers the text horizontally */
+    padding: 20px; /* Add padding if necessary */
 }
 
 /* Styles for the first page */
